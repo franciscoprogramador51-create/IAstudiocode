@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AI Studio | Code Generator</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com" rel="stylesheet">
+</head>
+<body>
+    <div class="glass-container">
+        <header>
+            <h1>AI Studio <span>Code</span></h1>
+            <p>Transforme ideias em componentes reais com um clique.</p>
+        </header>
+
+        <main>
+            <div class="input-section">
+                <textarea id="prompt" placeholder="Descreva sua ideia... Ex: Um card de produto com efeito hover e bordas neon."></textarea>
+                <button id="generate-btn">
+                    <span class="btn-text">Gerar Componente</span>
+                    <div class="loader"></div>
+                </button>
+            </div>
+
+            <div class="output-grid">
+                <div class="panel">
+                    <div class="panel-header">
+                        <span>Código-Fonte</span>
+                        <button id="copy-btn">Copiar</button>
+                    </div>
+                    <pre><code id="code-output">// O código gerado aparecerá aqui...</code></pre>
+                </div>
+
+                <div class="panel">
+                    <div class="panel-header">Visualização</div>
+                    <iframe id="resultado-visual"></iframe>
+                </div>
+            </div>
+        </main>
+    </div>
+    <script src="scripts.js"></script>
+</body>
+</html>
