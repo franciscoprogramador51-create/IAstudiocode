@@ -1,19 +1,17 @@
 # 🤖 IA Studio Code
 
-Interface interativa desenvolvida para experimentação de scripts e lógica assistida por IA.
+Interface interativa desenvolvida para experimentação de scripts e lógica assistida por IA, focada em uma experiência de usuário moderna e fluida.
 
-## 🛠️ Tecnologias
-- **Estrutura:** HTML5
-- **Estilização:** CSS3 (Custom UI)
-- **Lógica:** JavaScript (Scripts Dinâmicos)
+## 🛠️ Tecnologias Utilizadas
+- **Estrutura:** HTML5 Semântico.
+- **Design:** CSS3 Modern UI (Dark Mode).
+- **Lógica:** JavaScript ES6+ (Manipulação de DOM).
+- **Configuração:** JSON dinâmico para definições de ambiente.
+
+## ✨ Destaques do Projeto
+- Interface responsiva e otimizada.
+- Organização de arquivos seguindo boas práticas (Clean Code).
+- Laboratório para testes de integração com motores de IA.
 
 ## 🚀 Como Visualizar
-Basta abrir o arquivo `index.html` em qualquer navegador moderno.
-Use o código com cuidado.
-
-3. Salvar o README no GitHub 🚀
-Mande essa melhoria para a nuvem agora:
-cmd
-git add README.md
-git commit -m "docs: adicionando vitrine profissional"
-git push origin main
+Basta clonar o repositório e abrir o arquivo `index.html` em qualquer navegador moderno.
